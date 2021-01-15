@@ -90,8 +90,8 @@ class _CaixaState extends State<Caixa> {
     else {
       if(_error == false) {
         return Container(
-          padding: EdgeInsets.only(top: 10),
           child: SingleChildScrollView(
+            padding: EdgeInsets.only(top: 10),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
@@ -123,7 +123,8 @@ class _CaixaState extends State<Caixa> {
                       )
                     ],
                   ),
-                )
+                ),
+                SizedBox(height: 40),
               ],
             ),
           )
